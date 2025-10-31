@@ -9,10 +9,10 @@
 <body>
 <?php
 require './vue/formulaire.php';
-require './model/Contribuable.php';
+//require './model/Contribuable.php';
 
-$moncontribuable = new Contribuable("Sophie", 30000);
-echo $moncontribuable->calculImpot();
+//$moncontribuable = new Contribuable("Sophie", 30000);
+//echo $moncontribuable->calculImpot();
 
 
 ?>
